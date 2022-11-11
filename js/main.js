@@ -112,8 +112,8 @@ $('#yes').click(function() {
               left top
               no-repeat
             `,
-        confirmButtonColor: '#fe8a71',
-        confirmButtonColor: '#fe8a71',
+        confirmButtonColor: '#0c0d0d',
+        confirmButtonColor: '#0c0d0d',
         confirmButtonText: CONFIG.btnReply
     }).then((result) => {
         if (result.value) {
@@ -123,7 +123,7 @@ $('#yes').click(function() {
                 background: '#fff url("'+CONFIG.iputBgLink+'")',
                 title: CONFIG.mess,
                 text: CONFIG.messDesc,
-                confirmButtonColor: '#000000',
+                confirmButtonColor: '#0c0d0d',
                 onClose: () => {
                     window.location = CONFIG.messLink;
                   }
