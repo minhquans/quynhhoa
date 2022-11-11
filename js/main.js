@@ -123,7 +123,7 @@ $('#yes').click(function() {
                 background: '#fff url("'+CONFIG.iputBgLink+'")',
                 title: CONFIG.mess,
                 text: CONFIG.messDesc,
-                confirmButtonColor: '#83d0c9',
+                confirmButtonColor: '#000000',
                 onClose: () => {
                     window.location = CONFIG.messLink;
                   }
