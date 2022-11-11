@@ -112,7 +112,7 @@ $('#yes').click(function() {
               left top
               no-repeat
             `,
-        confirmButtonColor: '#3085d6',
+        confirmButtonColor: '#fe8a71',
         confirmButtonColor: '#fe8a71',
         confirmButtonText: CONFIG.btnReply
     }).then((result) => {
